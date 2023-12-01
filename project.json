@@ -1,0 +1,94 @@
+{
+  "name": "Coded_Service_Builder_GPT",
+  "projectId": "00d5b789-14f4-4b0c-b71b-f38c58f23a54",
+  "description": "Describe an automation and turn it into an activity this simple trick.",
+  "main": "Invoke.xaml",
+  "dependencies": {
+    "SSH.NET": "[2023.0.0]",
+    "UiPath.MicrosoftAzureOpenAI.IntegrationService.Activities": "[7.1.0]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "GetTasks.xaml",
+      "uniqueId": "f21be1f6-4dc3-409e-9cc6-0da8f9e13947",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BoilerPlates\\InterfaceBoilerplate.cs",
+      "uniqueId": "1eecac26-dd38-40d4-ae3e-a4a4536841bf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BoilerPlates\\ServiceBoilerplate.cs",
+      "uniqueId": "5e25f6f5-f7e5-44f5-840d-3f9511624d5e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BoilerPlates\\WorkflowBoilerplate.cs",
+      "uniqueId": "cc28890f-866d-4d09-bc07-923d9c1fafcb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Generate.xaml",
+      "uniqueId": "2e014dff-72a6-494e-9efd-c36e7b29f99d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Invoke.xaml",
+      "uniqueId": "73f9ffbd-2f63-4628-80f7-999e256bedd0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}
